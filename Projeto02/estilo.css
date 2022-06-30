@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#3BB381;
+}header{ 
+    background:url(pet_correto.png);
+    text-align: center;
+    height: 140px;
+}nav{
+    text-align: center;
+    background-color: #B42523;
+    height: 55px;
+    padding-top: 17px;
+}nav > a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 71px;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 17px;
+    
+}nav > a:hover{
+    background-color:#F79E79 ;
+}main{
+    height: 600px;
+    margin: 0px 100px -5px 100px;
+    border: 1px solid black;
+    background-color: white;
+
+}article#princ{
+    padding: 50px 100px;
+}article#princ h1{
+    text-align: center;
+}article#princ p {
+    text-align: justify;
+    text-indent: 50px;
+}footer{
+    background-color: black;
+    height: 110px;
+    margin: 0px 100px;
+}div#menu_footer{
+    position: absolute;
+    width: 300px;
+    left: 141px;
+    bottom: -270px;
+}
+div#menu_footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+
+
+}div#menu_footer li{
+    margin-bottom: 3px;
+}
+div#texto_footer{
+   height: 106px;
+   width: 397px;
+   margin: 7px auto;
+}div#texto_footer p{
+    color: white;
+    font-size: 14px;
+    
+}div#rede_social{
+    position: relative;
+    left: 885px;
+    bottom: 113px;
+}div#rede_social a{
+    text-decoration: none;
+    color: white;
+    
+    font-weight: bolder;
+    
+}div#rede_social li{
+    margin-bottom: 3px;
+}
+
+

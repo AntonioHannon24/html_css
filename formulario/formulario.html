@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de envio</h1>
+    </header>
+    <section>
+        <form action="">
+            <p>Nome </p><input type="text" name="nome" id="nome" class="campo" placeholder="Insira seu nome">
+            <p>Email</p><input type="email" name="mail" id="mail" class="campo" placeholder="Insira seu e-mail">
+            <p>Idade </p><input type="number" name="idade" id="idade" max="100" min="12" class="campo" placeholder="22">
+            <p>Em qual opção você se indentifica</p>
+            <select name="posi" id="" class="campo_op">
+                <option value="posi">Iniciante</option>
+                <option value="posi">Intermediario</option>
+                <option value="posi">Pro</option>
+            </select>
+
+            <p>Em qual opção você recomendaria a freeCodeCamp para um amigo?</p><br>
+            <input type="radio" name="nivel" id="nunca">
+            <label for="nunca">Nunca</label><br><br>
+            <input type="radio" name="nivel" id="rec">
+            <label for="rec">Recomendaria</label><br><br>
+            <input type="radio" name="nivel" id="prop" checked>
+            <label for="prop">Faço propaganda</label><br><br>
+
+            <p>Qual é seu projeto ou freeCodeCamp favorito?</p>
+            <select name="" id="" class="campo_op">
+                <option value="php">PHP</option>
+                <option value="java">Java</option>
+                <option value="pyton">Phyton</option>
+            </select>
+            
+            <p>Alguma sujestão ou comentario</p>
+            <textarea name="" id="" cols="67" rows="5">
+            
+            </textarea>
+            <input type="button" value="Submit" class="campo" id="enviar" name="acao">
+        </form>
+
+    </section>
+    <footer>
+        Desenvolvido por &copy; Antonio Fernando
+    </footer>
+</body>
+</html>
+
+
+
+<?php
+
+
+
+
+?>

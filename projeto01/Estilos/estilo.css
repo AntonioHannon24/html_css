@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+
+
+body{
+    width: 100%;
+	height: 100%;
+	margin: 0;	
+    font-family: 'PT Sans', sans-serif;
+
+object-fit: cover;
+   overflow: -moz-hidden-unscrollable;
+
+}.bg{
+    background-image: url(../Imagens/fundo01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+
+div#interface{
+    width: 1000px;
+    background-color:rgba(255, 255, 255, 0.651);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px 10px 10px 10px;
+    height: 1400px;
+}
+
+/*------------------------------- menu topo---------------*/
+div#log ul{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    
+    list-style: none;
+    position: absolute;
+    top: -5px;
+    left: 280px;
+    text-transform: uppercase;
+    
+    
+}div#log li{
+    
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+  
+
+}div#log li:hover{
+    background-color: #4dacffc2;   
+}div#log a{
+    text-decoration: none;
+    color:black;
+}
+/* ------------------------------menu lateral-------------*/
+div#car{
+    position: absolute;
+    right: 160px;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 1px;
+    
+   
+    
+}div#car ul{
+    padding: 1px;  
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+
+
+}div#car li{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}div#car a{
+    color: black;
+    text-decoration: none;
+   
+}div#car hr{
+    width: 2px;
+    size: 100px;
+}li#oi{
+    border-right: 2px solid black;
+}img#carrinho{
+    position: relative;
+    left: 184px;
+   
+}img#lista {
+    position: relative;
+    right: 19px;
+    
+}
+/*-------------------------------img logotipo*/
+
+div#loc{
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+
+
+/*--------------------------- menu principal--------------*/
+div#menu{
+    border: 2px solid black;
+    border-radius: 7px;
+    position: absolute;
+    left: 315px;
+    top: 80px;
+    margin: 11px;
+}div#menu ul{
+    padding: 1px;  
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    text-transform: uppercase;   
+    margin: 7px;
+}div#menu li{
+    display: inline-block;
+    margin: 1px;
+    padding: 10px;   
+}div#menu li:hover{
+    background-color: #4dacffc2;
+}div#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+/*--------------------search------------------------------*/
+div#proc{
+    position: relative;
+    left: 170px;
+    top: 1px;
+}div#proc input{
+    border-color: black;
+    padding: 6px;
+    width: 700px;
+    height: 15px;
+    border-radius: 7px;
+}div#proc button{
+    right: 10px;
+    position: relative;
+    left: 20px;
+    height: 31px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/*-----------------------------------------------------------------------------------------*/
+section#corpo{
+}div#slider{
+    margin: 4px;
+    position: relative;
+    width: 97%;
+    height:40vw;
+    padding: 9px;
+    max-height: 300px;
+}div#slider img {
+    transition: opacity 500ms;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}div#slider img.selected{
+    opacity: 1;
+}div#slider h2{
+    color: whitesmoke;
+    position: relative;
+    left: 400px;
+    bottom: -50px;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+    opacity: 0;
+}div#slider h2.selected{
+    opacity: 1;
+}
+/*---------------bodi-------------------------------------*/
+div#bodi{
+    height: 780px;
+    width: 986px;
+    margin: 10px;
+    box-shadow: 3px 6px 5px black;
+    position: relative;
+}ol#bodyMenu{
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+  
+
+}ol#bodyMenu li{
+    display: inline-block;
+    margin: 18px;
+    
+}ol#bodyMenu a{
+   text-decoration: none;
+   color: black;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    background: white;
+
+}
+
